@@ -1,23 +1,23 @@
 import React from "react";
+import Animation from '../assets/animation.mp4';
 
 const Hero = () => {
   return (
-    <div className="bg-gray-800 text-white flex items-center h-screen">
+    <div className="text-black bg-white flex items-center h-screen">
       <div className="container mx-auto flex px-10">
         <div className="w-1/2">
-          <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-          <p className="text-lg mb-8">
-            Check out my latest projects and experience in web development!
-          </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            View Projects
-          </button>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-gray-800">Hi, I'm Andi</h1>
+          <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-600">I'm a web developer from Prishtina, Kosovo.</p>
+          <p className="italic text-lg md:text-xl lg:text-2xl text-gray-600">I build websites with a focus on responsive design and accessibility.</p>
         </div>
-        <div className="w-1/2">
-          <img
-            className="w-full h-auto object-cover"
-            src="https://via.placeholder.com/400"
+        <div className="w-4/5">
+          <video
+            className="w-full h-auto object-cover "
+            src={Animation}
             alt="portfolio"
+            autoPlay
+            loop
+            style={{ width: "100%", height: "auto" }} // Adjust the style here
           />
         </div>
       </div>

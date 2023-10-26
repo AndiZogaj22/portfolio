@@ -1,33 +1,53 @@
-import React from "react";
+import { Chrono } from "react-chrono";
+
+const items = [
+  {
+    title: "January 2022",
+    cardTitle: "Event 1",
+    cardSubtitle: "Event 1 Subtitle",
+    cardDetailedText: "This is the first event on the timeline.",
+  },
+  {
+    title: "February 2022",
+    cardTitle: "Event 2",
+    cardSubtitle: "Event 2 Subtitle",
+    cardDetailedText: "This is the second event on the timeline.",
+  },
+  {
+    title: "March 2022",
+    cardTitle: "Event 3",
+    cardSubtitle: "Event 3 Subtitle",
+    cardDetailedText: "This is the third event on the timeline.",
+  },
+  {
+    title: "March 2022",
+    cardTitle: "Event 3",
+    cardSubtitle: "Event 3 Subtitle",
+    cardDetailedText: "This is the third event on the timeline.",
+  },
+  {
+    title: "March 2022",
+    cardTitle: "Event 3",
+    cardSubtitle: "Event 3 Subtitle",
+    cardDetailedText: "This is the third event on the timeline.",
+  }
+];
 
 const Journey = () => {
-  const timelineData = [
-    { year: 2018, technologies: ["HTML", "CSS", "JavaScript"] },
-    { year: 2019, technologies: ["React", "Tailwind CSS"] },
-    { year: 2020, technologies: ["ASP.NET", "MS SQL"] },
-    { year: 2021, technologies: ["Express.js"] },
-    { year: 2022, technologies: ["Docker", "Kubernetes"] },
-    { year: 2023, technologies: ["GraphQL", "AWS"] },
-  ];
-
   return (
-    <div className="bg-gray-100 py-10">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">Timeline</h2>
-        {timelineData.map((item, index) => (
-          <div key={index} className="mb-4">
-            <h3 className="text-xl font-semibold mb-2">{item.year}</h3>
-            <ul className="list-disc list-inside">
-              {item.technologies.map((tech, idx) => (
-                <li key={idx} className="text-lg">
-                  {tech}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
+    <Chrono
+      items={items}
+      mode="VERTICAL_ALTERNATING"
+      itemWidth={150}
+       theme={{
+    primary: "black",
+    secondary: "black",
+    cardBgColor: "white",
+    cardForeColor: "red",
+    titleColor: "black",
+    titleColorActive: "white",
+  }}
+    />
   );
 };
 
