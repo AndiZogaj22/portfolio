@@ -1,17 +1,16 @@
 import Navbar from "./components/Navbar" 
-import Hero from "./components/Hero"
-import Skills from "./components/Skills"
+import Home from "./components/Home"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
-import Journey from "./components/Journey"
+import AboutMe from "./components/AboutMe"
 function App() {
 
   return (
     <>
    <Navbar />
-   <Hero />
-   <Journey />
-   <Skills />
+   <Home />
+   <AboutMe />
+   
    <Projects />
    <Contact />
     </>
