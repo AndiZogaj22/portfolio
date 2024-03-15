@@ -1,12 +1,12 @@
 import React from 'react';
-import DeveloperGif from '../assets/Developer.gif';
+import DeveloperGif from '../assets/Developer.gif'; // Remove this line
 
 const AboutMe = () => {
   return (
     <section className="bg-white dark:bg-gray-900 p-28">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:flex lg:items-center lg:justify-center text-center lg:py-16 lg:px-12">
-      <div className="lg:w-1/2 lg:mr-12">
-          <img src={DeveloperGif} alt="Developer" className="mx-auto " />
+        <div className="lg:w-1/2 lg:mr-12">
+          <img src={require('../assets/Developer.gif').default} alt="Developer" className="mx-auto " /> {/* Modify this line */}
         </div>
         <div className="lg:w-1/2">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">About Me</h1>
