@@ -2,19 +2,13 @@ import React from 'react'
 
 const Projects = () => {
   return (
-   
-<div className="grid grid-cols-3 grid-rows-5 gap-5">
-    <h1>My Projects</h1>
-        <div >1</div>
-    <div className="col-start-1 row-start-2">2</div>
-    <div className="col-start-1 row-start-3">3</div>
-    <div className="col-start-2 row-start-1">4</div>
-    <div className="col-start-2 row-start-2">5</div>
-    <div className="col-start-2 row-start-3">6</div>
-    <div className="col-start-3 row-start-1">7</div>
-    <div className="col-start-3 row-start-2">8</div>
-    <div >9</div>
-</div>
+    <section className="bg-red-50 dark:bg-gray-900 p-28">
+    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">My Projects</h1>
+      
+
+    </div>
+  </section>
     
   )
 }
