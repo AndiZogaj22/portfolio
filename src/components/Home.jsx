@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
-import { BiLogoMongodb } from "react-icons/bi";
-import { BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 
 const Home = () => {
@@ -27,8 +26,8 @@ const Home = () => {
     <FaCss3Alt size={36} className="text-blue-500" title="CSS" />
     <FaJs size={36} className="text-yellow-500" title="JavaScript" /> 
     <FaReact size={36} className="text-blue-400" title="React" />
-    <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />
     <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />
+    <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />
     <SiExpress size={36} className="text-black" title="express" />
 
   </div>
