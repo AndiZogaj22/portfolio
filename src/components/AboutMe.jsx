@@ -1,5 +1,4 @@
 import React from 'react';
-import DeveloperGif from '../assets/Developer.gif';
 
 const AboutMe = () => {
   return (
