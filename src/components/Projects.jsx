@@ -3,6 +3,7 @@ import p1 from '../assets/p1.png';
 import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
+import p5 from '../assets/p5.PNG';
 
 
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
@@ -41,6 +42,14 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
       image: p4,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "Cinema24",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p5,
       visitLink: "https://example.com",
       githubLink: "https://github.com/example/project2"
     },
