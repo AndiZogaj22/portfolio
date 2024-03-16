@@ -4,6 +4,8 @@ import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.PNG';
+import p6 from '../assets/p6.PNG';
+import p7 from '../assets/p7.PNG';
 
 
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
@@ -50,6 +52,22 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
       image: p5,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "TechElctronics",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p6,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "E-Tickets",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p7,
       visitLink: "https://example.com",
       githubLink: "https://github.com/example/project2"
     },
