@@ -3,9 +3,9 @@ import p1 from '../assets/p1.png';
 import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
-import p5 from '../assets/p5.PNG';
-import p6 from '../assets/p6.PNG';
-import p7 from '../assets/p7.PNG';
+import p5 from '../assets/p5.png';
+import p6 from '../assets/p6.png';
+import p7 from '../assets/p7.png';
 
 
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
