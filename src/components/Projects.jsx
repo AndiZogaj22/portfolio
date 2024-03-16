@@ -6,11 +6,18 @@ import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.png';
 import p6 from '../assets/p6.png';
 import p7 from '../assets/p7.png';
+import p8 from '../assets/p8.png';
+import p9 from '../assets/p9.png';
+import p10 from '../assets/p10.png';
 
 
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
+import { BiLogoUnity } from "react-icons/bi";
+import { DiMsqlServer } from "react-icons/di";
+import { SiDotnet } from "react-icons/si";
+import { BiLogoPhp } from "react-icons/bi";
 
 const Projects = () => {
   // Define an array of projects
@@ -57,7 +64,7 @@ const Projects = () => {
     },
     {
       name: "TechElctronics",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,<DiMsqlServer size={36} className="text-red-700"/>, <SiDotnet size={36} className="text-purple-500" title="csharp" />   ],
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
       image: p6,
       visitLink: "https://example.com",
@@ -65,9 +72,33 @@ const Projects = () => {
     },
     {
       name: "E-Tickets",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      techStack: [<SiDotnet size={36} className="text-purple-500" title="csharp" /> ],
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
       image: p7,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "UpBeat",
+      techStack: [ <FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />, <BiLogoPhp size={36} className="text-blue-500" title="csharp" />,<DiMsqlServer size={36} className="text-red-700"/>   ],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p8,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "Electronic E-Commerce",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <DiMsqlServer size={36} className="text-red-700"/>, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />,<SiDotnet size={36} className="text-purple-500" title="csharp" /> ],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p9,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/example/project2"
+    },
+    {
+      name: "Flappy Bird clone ",
+techStack: [<BiLogoUnity size={36} className="text-black" />],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit dsjasaodjsaoisadiosa ijasdoiasjodiasdoiasiodsaiodsaidjsaiodjiasodjoisadjiosadioasdijoasdji.",
+      image: p10,
       visitLink: "https://example.com",
       githubLink: "https://github.com/example/project2"
     },
@@ -75,7 +106,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="bg-red-50 dark:bg-gray-900 p-28 mb-24">
+    <section className="bg-white dark:bg-gray-900 p-28 mb-24">
       <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
         <h1 className=" pb-12 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white ">My Projects</h1>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 w-full">
