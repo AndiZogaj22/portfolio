@@ -3,8 +3,8 @@ import React from 'react';
 const AboutMe = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    // Assuming your assets folder is located at the root level
-    downloadLink.href = './assets/CV.pdf';
+    // Link directly to the file in the public folder
+    downloadLink.href = '/CV.pdf';
     downloadLink.download = 'CV.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
