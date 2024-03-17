@@ -25,63 +25,15 @@ const Projects = () => {
     {
       name: "Xypo",
       techStack: [<FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />   ],
-      description: "Discover endless learning possibilities with Xypo – explore diverse courses tailored to your interests and ignite your passion for knowledge.",
+      description: "My first attempt at creating, designing, and developing a simple web app using HTML, CSS, and JavaScript.",
       image: p1,
       visitLink: "https://example.com",
       githubLink: "https://github.com/AndiZogaj22/Xypo"
     },
     {
-      name: "UpNorth Travels",
-      techStack: [<FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />   ],
-      description: "UpNorth Agency Is A Reputable Travel Agency That Specializes In Creating Memorable Travel Experiences For Clients Seeking Adventures.",
-      image: p2,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/AndiZogaj22/UpNorthWebMultimedia"
-    },
-    {
-      name: "StudyNest",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,    ],
-      description: "Fuel Your Ambition with Knowledge. Unleash Your Potential with Education. Transform Your Future Today.",
-      image: p3,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/AndiZogaj22/StudyNest"
-    },
-    {
-      name: "Recepies",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
-      description: "Unlock the secrets of Mediterranean cuisine, where every bite is a journey to the heart of flavor and tradition.",
-      image: p4,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/AndiZogaj22/Recepies"
-    },
-    {
-      name: "Cinema24",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
-      description: "Experience the magic of Cinema24 – your gateway to a world of captivating stories, timeless classics, and blockbuster hits, all at your fingertips.",
-      image: p5,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/AndiZogaj22/Cinema24"
-    },
-    {
-      name: "TechElctronics",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,<DiMsqlServer size={36} className="text-red-700"/>, <SiDotnet size={36} className="text-purple-500" title="csharp" />   ],
-      description: "Step into the future of tech shopping with TechElectronics – your go-to e-commerce app for cutting-edge gadgets, and unparalleled convenience.",
-      image: p6,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/AndiZogaj22/tech-electronics"
-    },
-    {
-      name: "E-Tickets",
-      techStack: [<SiDotnet size={36} className="text-purple-500" title="csharp" /> ],
-      description: "Unlock the world of cinema at your fingertips with e-tickets. From the latest blockbusters to timeless classics, browse, and enjoy your favorite movies.",
-      image: p7,
-      visitLink: "https://example.com",
-      githubLink: "https://github.com/DimalMaloku1/E-Commerce-Etickets"
-    },
-    {
       name: "UpBeat",
       techStack: [ <FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />, <BiLogoPhp size={36} className="text-blue-500" title="csharp" />,<DiMsqlServer size={36} className="text-red-700"/>   ],
-      description: "My first full-stack programing project, a simple e-commerce platform developed with html, css, js, php in the backend and mysql in the database   ",
+      description: "My first full-stack app: an e-commerce platform developed with HTML, CSS, JavaScript for the frontend, PHP for the backend, and MySQL for the database.",
       image: p8,
       visitLink: "https://example.com",
       githubLink: "https://github.com/AndiZogaj22/Projekti_WEB_AndiZogaj_ErionGrainca"
@@ -89,15 +41,57 @@ const Projects = () => {
     {
       name: "Electronic E-Commerce",
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <DiMsqlServer size={36} className="text-red-700"/>, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />,<SiDotnet size={36} className="text-purple-500" title="csharp" /> ],
-      description: "An robust e-commerce platform designet for people interested in buying tech products and accessories ",
+      description: "A complex robust e-commerce platform designed for people interested in buying tech products and accessories.",
       image: p9,
       visitLink: "https://example.com",
       githubLink: "https://github.com/DimalMaloku1/Electronic-App"
     },
     {
+      name: "UpNorth Travels",
+      techStack: [<FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />   ],
+      description: "UpNorth is a great showcase of front-end work developed with a variety of animation libraries, such as jQuery, GSAP, and many more.",
+      image: p2,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/AndiZogaj22/UpNorthWebMultimedia"
+    },
+    {
+      name: "Recepies",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
+      description: "Recipes is an app tailored for individuals interested in Mediterranean cuisine, offering a diverse range of dishes from various countries.",
+      image: p4,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/AndiZogaj22/Recepies"
+    },
+    {
+      name: "StudyNest",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,    ],
+      description: "StudyNest is a learning platform for individuals interested in downloading or uploading courses and literature online.",
+      image: p3,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/AndiZogaj22/StudyNest"
+    },
+    
+    {
+      name: "Cinema24",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
+      description: "My attempt at developing an online streaming platform for movies and Tv shows",
+      image: p5,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/AndiZogaj22/Cinema24"
+    },
+    {
+      name: "TechElctronics",
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,<DiMsqlServer size={36} className="text-red-700"/>, <SiDotnet size={36} className="text-purple-500" title="csharp" />   ],
+      description: "A refined version of an Electronic E-Commerce app with many additional features, representing my magnum opus thus far.",
+      image: p6,
+      visitLink: "https://example.com",
+      githubLink: "https://github.com/AndiZogaj22/tech-electronics"
+    },
+  
+    {
       name: "Flappy Bird clone ",
 techStack: [<BiLogoUnity size={36} className="text-black" />],
-      description: "An flappy bird clone developed in unity with C#, with some extra features and characteristic from the original ",
+      description: "A Flappy Bird clone developed in Unity with C#, featuring additional features and characteristics inspired by the original.",
       image: p10,
       visitLink: "https://example.com",
       githubLink: "https://github.com/AndiZogaj22/FlappyBird"

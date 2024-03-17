@@ -4,10 +4,12 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 const Contact = () => {
   return (
     <div>
-      <h2 className="mb-14 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Let's get in touch.</h2>
+      <h2 className="mb-14 text-2xl md:text-4xl  tracking-tight font-extrabold text-center text-gray-900 dark:text-white ">Let's get in touch.</h2>
+            <h2 className="mb-14 text-2xl md:text-4xl  tracking-tight font-extrabold text-center text-red-900 dark:text-white ">Currently the message system is not working, please use an email provider.</h2>
+
       <section className="bg-white dark:bg-gray-900 p-6 lg:p-8 flex flex-wrap justify-center items-start h-full">
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start mt-12">
-          <p className="mb-8 text-gray-500 dark:text-gray-500 sm:text-base">Are you interested in my skills and experience? <br />Looking to discuss potential collaboration opportunities or have questions about my work? <br /> Don't hesitate to reach out. I'm here to connect and explore possibilities with you. <br></br> you can contact me throught my email system or throught other email providers. </p>
+          <p className="mb-8 text-gray-500 dark:text-gray-500 sm:text-base">Are you interested in my skills and experience? <br />Looking to discuss potential collaboration opportunities or have questions about my work? <br /> Don't hesitate to reach out. I'm here to connect and explore possibilities with you. <br></br> You can contact me throught my email system or throught other email providers. </p>
           <div className="flex items-center space-x-4">
             <FaEnvelope className="text-gray-900 dark:text-white" />
             <p className="text-gray-900 dark:text-white">andizogaj000@gmail.com</p>
