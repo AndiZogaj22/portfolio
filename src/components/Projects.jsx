@@ -9,7 +9,7 @@ import p7 from '../assets/p7.png';
 import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import p10 from '../assets/p10.png';
-
+import p11 from '../assets/p11.png';
 
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
@@ -18,7 +18,7 @@ import { BiLogoUnity } from "react-icons/bi";
 import { DiMsqlServer } from "react-icons/di";
 import { SiDotnet } from "react-icons/si";
 import { BiLogoPhp } from "react-icons/bi";
-
+import { SiNextdotjs } from "react-icons/si";
 const Projects = () => {
   // Define an array of projects
   const projects = [
@@ -87,7 +87,7 @@ const Projects = () => {
       visitLink: "https://example.com",
       githubLink: "https://github.com/AndiZogaj22/tech-electronics"
     },
-  
+    
     {
       name: "Flappy Bird clone ",
 techStack: [<BiLogoUnity size={36} className="text-black" />],
@@ -96,6 +96,14 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
       visitLink: "https://example.com",
       githubLink: "https://github.com/AndiZogaj22/FlappyBird"
     },
+    {
+      name: "TextShift",
+      techStack: [ <SiNextdotjs size={36} className="text-black" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      description: "TextShift is a transliterator that converts Latin text to any selected script. Whether you need to transliterate to Greek, Cyrillic, or any other script,",
+      image: p11,
+      visitLink: "https://textshift.vercel.app/",
+      githubLink: "https://github.com/AndiZogaj22/textshift"
+    }
     // Add more projects as needed
   ];
 
