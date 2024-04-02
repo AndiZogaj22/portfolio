@@ -10,7 +10,7 @@ import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import p10 from '../assets/p10.png';
 import p11 from '../assets/p11.png';
-
+import p12 from '../assets/p12.png';
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
@@ -103,6 +103,14 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
       image: p11,
       visitLink: "https://textshift.vercel.app/",
       githubLink: "https://github.com/AndiZogaj22/textshift"
+    },
+    {
+      name: "Andi's Blog",
+      techStack: [ <SiNextdotjs size={36} className="text-black" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      description: "This is a blog app where i post diffrent programing articles and code snipets and blocks",
+      image: p12,
+      visitLink: "https://blog-gamma-ruddy.vercel.app/",
+      githubLink: "https://github.com/AndiZogaj22/blog"
     }
     // Add more projects as needed
   ];
