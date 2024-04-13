@@ -2,6 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
+import { LuBookOpen } from "react-icons/lu";
+
 
 const Home = () => {
   return (
@@ -16,6 +18,9 @@ const Home = () => {
             </a>
             <a href="https://www.linkedin.com/in/andi-zogaj-20a8a2242/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
               <FaLinkedin size={28} />
+            </a>
+            <a href="https://portfolio-starter-kit-orpin-eight-16.vercel.app/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+              <LuBookOpen size={28} />
             </a>
           </div>
         </div>
