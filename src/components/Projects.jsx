@@ -109,8 +109,8 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
       techStack: [ <SiNextdotjs size={36} className="text-black" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
       description: "This is a blog app where i post diffrent programing articles and code snipets and blocks",
       image: p12,
-      visitLink: "https://blog-gamma-ruddy.vercel.app/",
-      githubLink: "https://github.com/AndiZogaj22/blog"
+      visitLink: "https://portfolio-starter-kit-orpin-eight-16.vercel.app/",
+      githubLink: "https://github.com/AndiZogaj22/portfolio-starter-kit"
     }
     // Add more projects as needed
   ];
@@ -127,7 +127,7 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
               <p className="text-gray-700  dark:text-gray-300 mb-4 flex justify-center text-xl">{project.techStack}</p>
               <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
               <div className="flex justify-center space-x-4">
-                <button    className="bg-blue-500  text-white px-4 py-2 rounded-md transition-colors duration-300 opacity-50  cursor-not-allowed">Visit</button>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-md transition-colors duration-300 opacity-50  cursor-not-allowed">Visit</button>
                 <a href={project.githubLink} className="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md transition-colors duration-300">GitHub</a>
               </div>
             </div>
