@@ -20,7 +20,7 @@ const AboutMe = () => {
         <div className="lg:w-1/2">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">About Me</h1>
           <p className="mb-8 text-lg text-gray-700 dark:text-gray-300">With a bachelor's degree in Computer Science and Engineering from Universiteti per Biznes dhe Teknologji "UBT", prishtina 10000 (academic year 20/21), I am a passionate web developer with a penchant for crafting sleek and efficient websites. My expertise primarily lies in front-end development, where I specialize in creating captivating user interfaces and enhancing user experiences. Armed with a robust knowledge of HTML, CSS, and JavaScript, complemented by proficiency in React and Tailwind, I am well-prepared to tackle diverse projects. Thriving in collaborative settings, I leverage my strong communication skills to translate visions into reality. Let's collaborate and create something truly extraordinary together!</p>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" //onClick={handleDownload} 
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" //onClick={handleDownload}aaa 
           >
             Download CV
           </button>
