@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     
   ],
+   darkMode: 'class', // Enable dark mode by class strategy
   theme: {
     extend: {},
   },

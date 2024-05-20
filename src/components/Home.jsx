@@ -35,7 +35,7 @@ const Home = () => {
             <FaReact size={36} className="text-blue-400" title="React" />
             <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />
             <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />
-            <SiExpress size={36} className="text-black" title="express" />
+            <SiExpress size={36} className="text-black dark:text-white" title="express" />
           </div>
         </div>
       </div>

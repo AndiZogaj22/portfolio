@@ -56,7 +56,7 @@ const Projects = () => {
     },
     {
       name: "Recepies",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black dark:text-white" title="express" />    ],
       description: "Recipes is an app tailored for individuals interested in Mediterranean cuisine, offering a diverse range of dishes from various countries.",
       image: p4,
       visitLink: "https://example.com",
@@ -73,7 +73,7 @@ const Projects = () => {
     
     {
       name: "Cinema24",
-      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black" title="express" />    ],
+      techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black dark:text-white" title="express" />    ],
       description: "My attempt at developing an online streaming platform for movies and Tv shows",
       image: p5,
       visitLink: "https://example.com",
@@ -89,8 +89,8 @@ const Projects = () => {
     },
     
     {
-      name: "Flappy Bird clone ",
-techStack: [<BiLogoUnity size={36} className="text-black" />],
+      name: "Flappy Bird clone ", 
+techStack: [<BiLogoUnity size={36} className="text-black dark:text-white"  />],
       description: "A Flappy Bird clone developed in Unity with C#, featuring additional features and characteristics inspired by the original.",
       image: p10,
       visitLink: "https://example.com",
@@ -98,7 +98,7 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
     },
     {
       name: "TextShift",
-      techStack: [ <SiNextdotjs size={36} className="text-black" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      techStack: [ <SiNextdotjs size={36} className="text-black dark:text-white" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
       description: "TextShift is a transliterator that converts Latin text to any selected script. Whether you need to transliterate to Greek, Arabic, or any other script,",
       image: p11,
       visitLink: "https://textshift.vercel.app/",
@@ -106,7 +106,7 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
     },
     {
       name: "Andi's Blog",
-      techStack: [ <SiNextdotjs size={36} className="text-black" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      techStack: [ <SiNextdotjs size={36} className="text-black dark:text-white" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
       description: "A blogging platform with a variety of diffrent programing articles and code snipets and blocks",
       image: p12,
       visitLink: "https://portfolio-starter-kit-orpin-eight-16.vercel.app/",
