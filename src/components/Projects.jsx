@@ -117,25 +117,25 @@ techStack: [<BiLogoUnity size={36} className="text-black" />],
   ];
 
   return (
-    <section className="bg-white dark:bg-gray-900 p-8 sm:p-16 md:p-28 mb-12 md:mb-24">
+    <section className="bg-white dark:bg-slate-950 p-8 sm:p-16 md:p-28 mb-12 md:mb-24">
   <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
     <h1 className="pb-8 md:pb-12 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white">
       My Projects
     </h1>
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 w-full">
       {projects.map((project, index) => (
-        <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg w-full">
-          <img src={project.image} alt={project.name} className="w-full h-64 object-cover mb-4 rounded-lg border-y-2" />
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">{project.name}</h2>
-          <p className="text-gray-700 dark:text-gray-300 mb-4 flex justify-center text-lg sm:text-xl">
+        <div key={index} className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-lg w-full">
+          <img src={project.image} alt={project.name} className="w-full h-64 object-cover mb-4 rounded-lg " />
+          <h2 className="text-lg sm:text-xl font-semibold mb-2 dark:text-white">{project.name}</h2>
+          <p className="text-gray-700 dark:text-white mb-4 flex justify-center text-lg sm:text-xl">
             {project.techStack}
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
+          <p className="text-gray-600 dark:text-white mb-4">{project.description}</p>
           <div className="flex justify-center space-x-4">
             <button className="bg-blue-500 text-white px-4 py-2 rounded-md transition-colors duration-300 opacity-50 cursor-not-allowed">
               Visit
             </button>
-            <a href={project.githubLink} className="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md transition-colors duration-300">
+            <a href={project.githubLink} className="bg-gray-700 dark:hover:bg-gray-500 hover:bg-gray-800 text-white px-4 py-2 rounded-md transition-colors duration-300">
               GitHub
             </a>
           </div>

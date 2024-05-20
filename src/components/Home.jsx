@@ -7,26 +7,26 @@ import { LuBookOpen } from "react-icons/lu";
 
 const Home = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 p-8 md:p-14 lg:p-20 xl:p-28">
+    <section className="bg-white dark:bg-slate-950 p-8 md:p-14 lg:p-20 xl:p-28">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white">HEY, I'M Andi Zogaj 👋</h1>
-        <p className="mb-8 text-lg md:text-xl lg:text-lg xl:text-xl font-normal text-gray-500 lg:mb-16 lg:px-8 xl:px-16 dark:text-gray-400"> I am a front-end Web Developer from Prishtina building and managing Websites and Web Applications that lead to the success of the overall product</p>
+        <p className="mb-8 text-lg md:text-xl lg:text-lg xl:text-xl font-normal text-gray-500 lg:mb-16 lg:px-8 xl:px-16 dark:text-white"> I am a front-end Web Developer from Prishtina building and managing Websites and Web Applications that lead to the success of the overall product</p>
         <div className="flex flex-col pt-10 md:pt-14 lg:pt-16 lg:mb-16 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-4">
           <div className="flex justify-center md:justify-start">
-            <a href="https://github.com/AndiZogaj22/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+            <a href="https://github.com/AndiZogaj22/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-400">
               <FaGithub size={28} />
             </a>
-            <a href="https://www.linkedin.com/in/andi-zogaj-20a8a2242/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+            <a href="https://www.linkedin.com/in/andi-zogaj-20a8a2242/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-400">
               <FaLinkedin size={28} />
             </a>
-            <a href="https://portfolio-starter-kit-orpin-eight-16.vercel.app/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+            <a href="https://portfolio-starter-kit-orpin-eight-16.vercel.app/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-400">
               <LuBookOpen size={28} />
             </a>
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row md:justify-center space-y-4 md:space-x-4">
           <div className="md:flex md:items-center md:space-x-2 mt-3">
-            <h1 className="text-lg md:text-xl mr-2 md:mr-5 font-normal text-black dark:text-gray-400">My Tech Stack |</h1>
+            <h1 className="text-lg md:text-xl mr-2 md:mr-5 font-normal text-black dark:text-white">My Tech Stack |</h1>
           </div>
           <div className="flex items-center space-x-4">
             <FaHtml5 size={36} className="text-orange-500" title="HTML" />

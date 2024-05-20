@@ -24,8 +24,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`bg-white shadow ${isSticky ? 'fixed top-0 left-0 right-0 z-10' : ''}`}>
-      <div className="container flex items-center justify-center p-4 lg:p-6 mx-auto text-gray-600 capitalize">
+    <nav className={`bg-white dark:bg-slate-950  shadow ${isSticky ? 'fixed top-0 left-0 right-0 z-10' : ''}`}>
+      <div className="container flex items-center justify-center p-4 lg:p-6 mx-auto text-gray-600 capitalize dark:text-white">
         <a href="#home" onClick={() => scrollToSection('home')}  className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-2">Home</a>
         <a href="#about" onClick={() => scrollToSection('about')}  className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-2">About Me</a>
         <a href="#projects" onClick={() => scrollToSection('projects')} className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-2">Projects</a>

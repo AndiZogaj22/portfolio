@@ -12,7 +12,7 @@ const AboutMe = () => {
   };
 
   return (
-   <section className="bg-white dark:bg-gray-900 p-6 sm:p-10 md:p-16 lg:p-28">
+   <section className="bg-white dark:bg-slate-950 p-6 sm:p-10 md:p-16 lg:p-28">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:flex lg:items-center lg:justify-center text-center lg:py-16 lg:px-12">
     <div className="lg:w-1/2 lg:mr-12 mb-8 lg:mb-0">
       <img src="https://miro.medium.com/v2/resize:fit:1400/0*NgUtI3tYLhuq5Vy0.gif" alt="Developer" className="mx-auto w-full" />

@@ -8,13 +8,13 @@ import Contact from "./components/Contact";
 import './scrollbar.css'
 function App() {
   return (
-    <>
+    <div className="dark:bg-slate-950">
       <Navbar />
       <div id="home"><Home /></div>
       <div id="about"><AboutMe /></div>
       <div id="projects"><Projects /></div>
       <div id="contact"><Contact /></div>
-    </>
+    </div>
   );
 }
 
