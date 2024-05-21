@@ -34,10 +34,8 @@ const Navbar = () => {
       <a href="#projects" onClick={() => scrollToSection('projects')} className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-2">Projects</a>
       <a href="#contact" onClick={() => scrollToSection('contact')} className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-2">Contact</a>
     </div>
-    <div className="absolute right-0 pr-12">
-      <DarkModeToggle />
-    </div>
   </div>
+   
 </nav>
 
 

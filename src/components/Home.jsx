@@ -4,11 +4,14 @@ import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { LuBookOpen } from "react-icons/lu";
 
-
+import DarkModeToggle from './DarkModeToggle';
 const Home = () => {
   return (
-    <section className="bg-white dark:bg-slate-950 p-8 md:p-14 lg:p-20 xl:p-28">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <section className="bg-white dark:bg-slate-950 p-8 md:p-14 lg:p-20 ">
+      <div className="flex justify-center  ">
+      <DarkModeToggle />
+    </div>
+      <div className="pb-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white">HEY, I'M Andi Zogaj 👋</h1>
         <p className="mb-8 text-lg md:text-xl lg:text-lg xl:text-xl font-normal text-gray-500 lg:mb-16 lg:px-8 xl:px-16 dark:text-white"> I am a front-end Web Developer from Prishtina building and managing Websites and Web Applications that lead to the success of the overall product</p>
         <div className="flex flex-col pt-10 md:pt-14 lg:pt-16 lg:mb-16 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-4">
