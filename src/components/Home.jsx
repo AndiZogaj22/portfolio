@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-i
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { LuBookOpen } from "react-icons/lu";
+import { SiNextdotjs } from "react-icons/si";
 
 import DarkModeToggle from './DarkModeToggle';
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
             <FaCss3Alt size={36} className="text-blue-500" title="CSS" />
             <FaJs size={36} className="text-yellow-500" title="JavaScript" />
             <FaReact size={36} className="text-blue-400" title="React" />
+            <SiNextdotjs size={36} className="text-black dark:text-white" title="next" />
             <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />
             <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />
             <SiExpress size={36} className="text-black dark:text-white" title="express" />
