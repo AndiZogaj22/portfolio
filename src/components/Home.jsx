@@ -31,14 +31,14 @@ const Home = () => {
             <h1 className="text-lg md:text-xl mr-2 md:mr-5 font-normal text-black dark:text-white">My Tech Stack |</h1>
           </div>
           <div className="flex items-center space-x-4">
-            <FaHtml5 size={36} className="text-orange-500" title="HTML" />
-            <FaCss3Alt size={36} className="text-blue-500" title="CSS" />
-            <FaJs size={36} className="text-yellow-500" title="JavaScript" />
-            <FaReact size={36} className="text-blue-400" title="React" />
-            <SiNextdotjs size={36} className="text-black dark:text-white" title="next" />
-            <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />
-            <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />
-            <SiExpress size={36} className="text-black dark:text-white" title="express" />
+            <FaHtml5 size={34} className="text-orange-500" title="HTML" />
+            <FaCss3Alt size={34} className="text-blue-500" title="CSS" />
+            <FaJs size={34} className="text-yellow-500" title="JavaScript" />
+            <FaReact size={34} className="text-blue-400" title="React" />
+            <SiNextdotjs size={34} className="text-black dark:text-white" title="next" />
+            <BiLogoTailwindCss size={34} className="text-blue-400" title="tailwind" />
+            <BiLogoMongodb size={34} className="text-green-500" title="MongoDb" />
+            <SiExpress size={34} className="text-black dark:text-white" title="express" />
           </div>
         </div>
       </div>
