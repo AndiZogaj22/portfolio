@@ -26,7 +26,7 @@ const Home = () => {
            
           </div>
         </div>
-        <div className="flex flex-col items-center md:flex-row md:justify-center space-y-4 md:space-x-4">
+        <div className="flex flex-col items-center md:flex-row md:justify-center space-y-6 md:space-x-6">
           <div className="md:flex md:items-center md:space-x-2 mt-3">
             <h1 className="text-lg md:text-xl mr-2 md:mr-5 font-normal text-black dark:text-white">My Tech Stack |</h1>
           </div>
