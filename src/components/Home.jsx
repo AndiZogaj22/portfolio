@@ -2,14 +2,13 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
-import { LuBookOpen } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
 
 import DarkModeToggle from './DarkModeToggle';
 const Home = () => {
   return (
     <section className="bg-white dark:bg-slate-950 p-8 md:p-14 lg:p-20 ">
-      <div className="flex justify-center  ">
+      <div className="flex justify-center p-2 ">
       <DarkModeToggle />
     </div>
       <div className="pb-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
