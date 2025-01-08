@@ -23,9 +23,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/andi-zogaj-20a8a2242/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-400">
               <FaLinkedin size={28} />
             </a>
-            <a href="https://portfolio-starter-kit-orpin-eight-16.vercel.app/" target="_blank" rel="noopener noreferrer" className="ml-4 text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-400">
-              <LuBookOpen size={28} />
-            </a>
+           
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row md:justify-center space-y-4 md:space-x-4">

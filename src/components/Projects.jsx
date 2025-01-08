@@ -27,7 +27,7 @@ const Projects = () => {
       techStack: [<FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />   ],
       description: "My first attempt at creating, designing, and developing a simple web app using HTML, CSS, and JavaScript.",
       image: p1,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/Xypo"
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
       techStack: [ <FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />, <BiLogoPhp size={36} className="text-blue-500" title="csharp" />,<DiMsqlServer size={36} className="text-red-700"/>   ],
       description: "My first full-stack app: an e-commerce platform developed with HTML, CSS, JavaScript for the frontend, PHP for the backend, and MySQL for the database.",
       image: p8,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/Projekti_WEB_AndiZogaj_ErionGrainca"
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <DiMsqlServer size={36} className="text-red-700"/>, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />,<SiDotnet size={36} className="text-purple-500" title="csharp" /> ],
       description: "A complex robust e-commerce platform designed for people interested in buying tech products and accessories.",
       image: p9,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/DimalMaloku1/Electronic-App"
     },
     {
@@ -51,7 +51,7 @@ const Projects = () => {
       techStack: [<FaHtml5 size={36} className="text-orange-500" title="HTML" /> , <FaCss3Alt size={36} className="text-blue-500" title="CSS" />, <FaJs size={36} className="text-yellow-500" title="JavaScript" />   ],
       description: "UpNorth is a great showcase of front-end work developed with a variety of animation libraries, such as jQuery, GSAP, and many more.",
       image: p2,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/UpNorthWebMultimedia"
     },
     {
@@ -59,7 +59,7 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black dark:text-white" title="express" />    ],
       description: "Recipes is an app tailored for individuals interested in Mediterranean cuisine, offering a diverse range of dishes from various countries.",
       image: p4,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/Recepies"
     },
     {
@@ -67,7 +67,7 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,    ],
       description: "StudyNest is a learning platform for individuals interested in downloading or uploading courses and literature online.",
       image: p3,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/StudyNest"
     },
     
@@ -76,7 +76,7 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />, <BiLogoMongodb size={36} className="text-green-500" title="MongoDb" />, <SiExpress size={36} className="text-black dark:text-white" title="express" />    ],
       description: "My attempt at developing an online streaming platform for movies and Tv shows",
       image: p5,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/Cinema24"
     },
     {
@@ -84,7 +84,7 @@ const Projects = () => {
       techStack: [ <FaReact size={36} className="text-blue-400" title="React" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />,<DiMsqlServer size={36} className="text-red-700"/>, <SiDotnet size={36} className="text-purple-500" title="csharp" />   ],
       description: "A refined version of an Electronic E-Commerce app with many additional features, representing my magnum opus thus far.",
       image: p6,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/tech-electronics"
     },
     
@@ -93,7 +93,7 @@ const Projects = () => {
 techStack: [<BiLogoUnity size={36} className="text-black dark:text-white"  />],
       description: "A Flappy Bird clone developed in Unity with C#, featuring additional features and characteristics inspired by the original.",
       image: p10,
-      visitLink: "https://example.com",
+      visitLink: "#",
       githubLink: "https://github.com/AndiZogaj22/FlappyBird"
     },
     {
@@ -132,10 +132,22 @@ techStack: [<BiLogoUnity size={36} className="text-black dark:text-white"  />],
           </p>
           <p className="text-gray-600 dark:text-white mb-4">{project.description}</p>
           <div className="flex justify-center space-x-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md transition-colors duration-300 opacity-50 cursor-not-allowed">
-              Visit
-            </button>
-            <a href={project.githubLink} className="bg-gray-700 dark:hover:bg-gray-500 hover:bg-gray-800 text-white px-4 py-2 rounded-md transition-colors duration-300">
+            <a
+  href={project.visitLink && project.visitLink !== "#" ? project.visitLink : undefined}
+  className={`${
+    project.visitLink && project.visitLink !== "#"
+      ? "bg-blue-500 hover:bg-blue-800 dark:hover:bg-gray-500 text-white"
+      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+  } px-4 py-2 rounded-md transition-colors duration-300`}
+  target={project.visitLink && project.visitLink !== "#" ? "_blank" : undefined}
+  rel={project.visitLink && project.visitLink !== "#" ? "noopener noreferrer" : undefined}
+  onClick={(e) => {
+    if (!project.visitLink || project.visitLink === "#") e.preventDefault();
+  }}
+>
+  Visit
+</a>
+            <a href={project.githubLink } className="bg-gray-700 dark:hover:bg-gray-500 hover:bg-gray-800 text-white px-4 py-2 rounded-md transition-colors duration-300">
               GitHub
             </a>
           </div>
