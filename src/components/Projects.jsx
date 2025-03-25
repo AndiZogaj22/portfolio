@@ -11,6 +11,7 @@ import p9 from '../assets/p9.png';
 import p10 from '../assets/p10.png';
 import p11 from '../assets/p11.png';
 import p12 from '../assets/p12.png';
+import p13 from '../assets/p13.PNG'
 import {  FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
@@ -111,6 +112,15 @@ techStack: [<BiLogoUnity size={36} className="text-black dark:text-white"  />],
       image: p12,
       visitLink: "https://portfolio-starter-kit-orpin-eight-16.vercel.app/",
       githubLink: "https://github.com/AndiZogaj22/portfolio-starter-kit"
+      
+    },
+    {
+      name: "Zogaj Construction",
+      techStack: [ <FaReact size={36} className="text-blue-400 dark:text-white" title="next" />,  <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />  ],
+      description: "A freelancing project in which the client required a website for their construction company.",
+      image: p13,
+      visitLink: "https://www.zogajconstruction.com/",
+      githubLink: "https://github.com/AndiZogaj22/zogaj-construction"
       
     }
     // Add more projects as needed
