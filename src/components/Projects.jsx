@@ -15,6 +15,7 @@ import p12 from '../assets/p12.png';
 import p13 from '../assets/p13.PNG';
 import p14 from '../assets/p14.PNG'
 import p15 from '../assets/p15.PNG'
+import p16 from '../assets/p16.PNG'
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss, BiLogoUnity, BiLogoPhp } from "react-icons/bi";
@@ -117,6 +118,14 @@ const Projects = () => {
       description: "A freelancing project in which the client required a website for their construction company.",
       image: p13,
       visitLink: "https://www.zogajconstruction.com/",
+
+    },
+    {
+      name: "Obsidium Web Development",
+      techStack: [<FaReact size={36} className="text-blue-400 dark:text-white" title="next" />, <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />],
+      description: "A freelancing project in which the client required a website for their web development startup.",
+      image: p16,
+      visitLink: "https://www.obsidium-dev.com/",
 
     },
     {
