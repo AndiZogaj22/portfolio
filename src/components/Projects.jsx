@@ -13,6 +13,9 @@ import p10 from '../assets/p10.png';
 import p11 from '../assets/p11.png';
 import p12 from '../assets/p12.png';
 import p13 from '../assets/p13.PNG';
+import p14 from '../assets/p14.PNG'
+import p15 from '../assets/p15.PNG'
+
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { BiLogoMongodb, BiLogoTailwindCss, BiLogoUnity, BiLogoPhp } from "react-icons/bi";
 import { SiExpress, SiNextdotjs, SiDotnet } from "react-icons/si";
@@ -114,8 +117,25 @@ const Projects = () => {
       description: "A freelancing project in which the client required a website for their construction company.",
       image: p13,
       visitLink: "https://www.zogajconstruction.com/",
-      githubLink: "https://github.com/AndiZogaj22/zogaj-construction"
-    }
+
+    },
+    {
+      name: "Mati Gradnje d.o.o",
+      techStack: [<FaReact size={36} className="text-blue-400 dark:text-white" title="next" />, <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />],
+      description: "A freelancing project in which the client required a website for their construction company.",
+      image: p14,
+      visitLink: "https://www.matigradnje.com/",
+
+    },
+    {
+      name: "Como Grit",
+      techStack: [<FaReact size={36} className="text-blue-400 dark:text-white" title="next" />, <BiLogoTailwindCss size={36} className="text-blue-400" title="tailwind" />],
+      description: "A freelancing project in which the client required a website for their metal fabrication and and industrial solutions company.",
+      image: p15,
+      visitLink: "https://www.comogrit.com/",
+
+    },
+
   ];
 
   const containerVariants = {
@@ -163,7 +183,7 @@ const Projects = () => {
               className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl"
             >
               <motion.div
-               
+
                 className="relative overflow-hidden aspect-video"
               >
                 <img
@@ -177,8 +197,8 @@ const Projects = () => {
                 <h2 className="text-xl sm:text-2xl font-bold mb-3 text-gray-900 dark:text-white">
                   {project.name}
                 </h2>
-                
-                <motion.div 
+
+                <motion.div
                   className="flex flex-wrap gap-3 justify-center mb-4"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -204,11 +224,10 @@ const Projects = () => {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     href={project.visitLink && project.visitLink !== "#" ? project.visitLink : undefined}
-                    className={`${
-                      project.visitLink && project.visitLink !== "#"
-                        ? "bg-blue-500 hover:bg-blue-600 text-white"
-                        : "bg-gray-300 text-gray-500 cursor-not-allowed"
-                    } px-6 py-2 rounded-full font-medium transition-colors duration-300`}
+                    className={`${project.visitLink && project.visitLink !== "#"
+                      ? "bg-blue-500 hover:bg-blue-600 text-white"
+                      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      } px-6 py-2 rounded-full font-medium transition-colors duration-300`}
                     target={project.visitLink && project.visitLink !== "#" ? "_blank" : undefined}
                     rel={project.visitLink && project.visitLink !== "#" ? "noopener noreferrer" : undefined}
                     onClick={(e) => {
